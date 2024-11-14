@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  backend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-14T19:01:53.847226355+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 50fd6a051b754eb0541bea7590470404ebc4dedfd64030d3c4ba52eedf62bd6b
+    name: backend
+    type: application
+    urls:
+    - https://github.com/salman574/MultiTierApp/ecommerce-app/charts/backend-0.1.0.tgz
+    version: 0.1.0
+  frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-14T19:01:53.84772413+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 0e7fbb2685a19e715b115609771da47117dabbd418b58abf57992a12c6bfde29
+    name: frontend
+    type: application
+    urls:
+    - https://github.com/salman574/MultiTierApp/ecommerce-app/charts/frontend-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-14T19:01:53.84617058+05:30"
